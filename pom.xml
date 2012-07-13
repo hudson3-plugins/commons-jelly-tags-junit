@@ -3,7 +3,7 @@
   <groupId>org.hudsonci.stapler</groupId>
   <artifactId>commons-jelly-tags-junit</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-hudson-20120704</version>
+  <version>1.0-hudson-20120705-SNAPSHOT</version>
   <name>commons-jelly-tags-junit</name>
   <url>http://maven.apache.org</url>
   <dependencies>
