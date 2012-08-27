@@ -1,18 +1,22 @@
+
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
+  
   <groupId>org.hudsonci.stapler</groupId>
   <artifactId>commons-jelly-tags-junit</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-hudson-20120717</version>
+  <version>1.0-hudson-20120704</version>
   <name>commons-jelly-tags-junit</name>
   <url>http://jakarta.apache.org/commons/jelly/</url>
   <description>The Jelly JUnit Tag Library</description>
-
+  
   <licenses>
     <license>
       <name>The Apache Software License, Version 2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-      <comments>All source code is made available under the terms of the Apache Software License 2.0</comments>
+      <comments>
+        All source code is made available under the terms of the Apache Software License 2.0
+      </comments>
     </license>
   </licenses>
   
@@ -20,7 +24,7 @@
     <dependency>
       <groupId>org.hudsonci.stapler</groupId>
       <artifactId>commons-jelly</artifactId>
-      <version>1.1-hudson-20120717</version>
+      <version>1.1-hudson-20120704</version>
     </dependency>
     <dependency>
       <groupId>commons-cli</groupId>
@@ -28,9 +32,9 @@
       <version>1.0</version>
     </dependency>
   </dependencies>
-
-  <!-- developers/contributors not shown separately in project.xml of
-       the original project, so replicate the entire commons-jelly list. -->
+<!--
+developers/contributors not shown separately in project.xml of the original project, so replicate the entire commons-jelly list.
+-->
   <developers>
     <developer>
       <name>James Strachan</name>
@@ -92,7 +96,7 @@
     <developer>
       <name>Daniel F. Savarese</name>
       <id>dfs</id>
-      <email>dfs -&gt; apache.org</email>
+      <email>dfs -> apache.org</email>
     </developer>
     <developer>
       <name>Brett Porter</name>
@@ -234,7 +238,7 @@
       </roles>
     </contributor>
   </contributors>
-    
+  
   <distributionManagement>
     <snapshotRepository>
       <id>sonatype-nexus-snapshots</id>
@@ -244,14 +248,21 @@
     <repository>
       <id>sonatype-nexus-staging</id>
       <name>Nexus Staging Repository</name>
-      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+      <url>
+        https://oss.sonatype.org/service/local/staging/deploy/maven2/
+      </url>
     </repository>
   </distributionManagement>
-
+  
   <scm>
-    <connection>scm:git:git://github.com/hudson3-plugins/${project.artifactId}.git</connection>
-    <developerConnection>scm:git:git@github.com:hudson3-plugins/${project.artifactId}.git</developerConnection>
-    <url>https://github.com/hudson3-plugins/${project.artifactId}</url>
+    <connection>
+      scm:git:git://github.com/hudson3-plugins/${project.artifactId}.git
+    </connection>
+    <developerConnection>
+      scm:git:git@github.com:hudson3-plugins/${project.artifactId}.git
+    </developerConnection>
+    <url>
+      https://github.com/hudson3-plugins/${project.artifactId}
+    </url>
   </scm>
-    
 </project>
