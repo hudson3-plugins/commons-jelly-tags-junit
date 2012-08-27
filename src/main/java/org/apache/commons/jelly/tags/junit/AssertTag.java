@@ -40,7 +40,7 @@ public class AssertTag extends AssertTagSupport {
     private static final Log log = LogFactory.getLog(AssertTag.class);
     
     /** Enable/disable DEBUG output **/
-    private static final boolean DEBUG = true;
+    private static final boolean DEBUG = false;
 
     /** The expression to evaluate. */
     private Expression test;

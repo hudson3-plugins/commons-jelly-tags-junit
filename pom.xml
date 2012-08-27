@@ -3,14 +3,24 @@
   <groupId>org.hudsonci.stapler</groupId>
   <artifactId>commons-jelly-tags-junit</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-hudson-20120705-SNAPSHOT</version>
+  <version>1.0-hudson-20120717</version>
   <name>commons-jelly-tags-junit</name>
-  <url>http://maven.apache.org</url>
+  <url>http://jakarta.apache.org/commons/jelly/</url>
+  <description>The Jelly JUnit Tag Library</description>
+
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <comments>All source code is made available under the terms of the Apache Software License 2.0</comments>
+    </license>
+  </licenses>
+  
   <dependencies>
     <dependency>
       <groupId>org.hudsonci.stapler</groupId>
       <artifactId>commons-jelly</artifactId>
-      <version>1.1-hudson-20120704</version>
+      <version>1.1-hudson-20120717</version>
     </dependency>
     <dependency>
       <groupId>commons-cli</groupId>
@@ -19,6 +29,212 @@
     </dependency>
   </dependencies>
 
+  <!-- developers/contributors not shown separately in project.xml of
+       the original project, so replicate the entire commons-jelly list. -->
+  <developers>
+    <developer>
+      <name>James Strachan</name>
+      <id>jstrachan</id>
+      <email>jstrachan@apache.org</email>
+      <organization>SpiritSoft, Inc.</organization>
+    </developer>
+    <developer>
+      <name>Geir Magnusson Jr.</name>
+      <id>geirm</id>
+      <email>geirm@adeptra.com</email>
+      <organization>Adeptra, Inc.</organization>
+    </developer>
+    <developer>
+      <name>Bob McWhirter</name>
+      <id>werken</id>
+      <email>bob@eng.werken.com</email>
+      <organization>The Werken Company</organization>
+    </developer>
+    <developer>
+      <name>dIon Gillard</name>
+      <id>dion</id>
+      <email>dion@multitask.com.au</email>
+      <organization>Multitask Consulting</organization>
+      <roles>
+        <role>Interested party</role>
+      </roles>
+    </developer>
+    <developer>
+      <name>Morgan Delagrange</name>
+      <id>morgand</id>
+      <email>morgand@apache.org</email>
+    </developer>
+    <developer>
+      <name>Rodney Waldhoff</name>
+      <id>rwaldhoff</id>
+      <email>rwaldhoff@apache.org</email>
+    </developer>
+    <developer>
+      <name>Peter Royal</name>
+      <id>proyal</id>
+      <email>proyal@apache.org</email>
+    </developer>
+    <developer>
+      <name>Martin van den Bemt</name>
+      <id>mvdb</id>
+      <email>martin@mvdb.net</email>
+    </developer>
+    <developer>
+      <name>Paul Libbrecht</name>
+      <id>polx</id>
+      <email>paul@activemath.org</email>
+    </developer>
+    <developer>
+      <name>Robert Burrell Donkin</name>
+      <id>rdonkin</id>
+      <email>rdonkin@apache.org</email>
+    </developer>
+    <developer>
+      <name>Daniel F. Savarese</name>
+      <id>dfs</id>
+      <email>dfs -&gt; apache.org</email>
+    </developer>
+    <developer>
+      <name>Brett Porter</name>
+      <id>brett</id>
+      <email>brett@apache.org</email>
+    </developer>
+    <developer>
+      <name>Hans Gilde</name>
+      <id>hgilde</id>
+      <email>hgilde@apache.org</email>
+    </developer>
+  </developers>
+  <contributors>
+    <contributor>
+      <name>Erik Fransen</name>
+      <email>erik167@xs4all.nl</email>
+      <roles>
+        <role>Logo designer</role>
+      </roles>
+    </contributor>
+    <contributor>
+      <name>Calvin Yu</name>
+    </contributor>
+    <contributor>
+      <name>Stephen Haberman</name>
+      <email>stephenh@chase3000.com</email>
+    </contributor>
+    <contributor>
+      <name>Vinay Chandran</name>
+      <email>sahilvinay@yahoo.com</email>
+      <roles>
+        <role>Developer</role>
+      </roles>
+    </contributor>
+    <contributor>
+      <name>Theo Niemeijer</name>
+    </contributor>
+    <contributor>
+      <name>Joe Walnes</name>
+      <email>joew@thoughtworks.com</email>
+      <organization>ThoughtWorks, Inc.</organization>
+      <roles>
+        <role>Inventor of Mock Tags</role>
+      </roles>
+    </contributor>
+    <contributor>
+      <name>Otto von Wachter</name>
+      <email>vonwao@yahoo.com</email>
+      <organization/>
+      <roles>
+        <role>Author of the tutorials</role>
+        <role>Developer</role>
+      </roles>
+    </contributor>
+    <contributor>
+      <name>Robert Leftwich</name>
+      <email>robert@leftwich.info</email>
+      <roles>
+        <role>Developer</role>
+      </roles>
+    </contributor>
+    <contributor>
+      <name>Jim Birchfield</name>
+      <email>jim.birchfield@genscape.com</email>
+      <organization>Genscape, Inc.</organization>
+      <roles>
+        <role>Developer</role>
+      </roles>
+    </contributor>
+    <contributor>
+      <name>Jason Horman</name>
+      <email>jhorman@musicmatch.com</email>
+      <roles>
+        <role>Developer</role>
+      </roles>
+    </contributor>
+    <contributor>
+      <name>Tim Anderson</name>
+      <email>tima@intalio.com</email>
+      <organization>Intalio, Inc.</organization>
+      <roles>
+        <role>Developer</role>
+      </roles>
+    </contributor>
+    <contributor>
+      <name>Theo Niemeijer</name>
+      <email>theo.niemeijer@getthere.nl</email>
+      <organization/>
+      <roles>
+        <role>Developer</role>
+      </roles>
+    </contributor>
+    <contributor>
+      <name>J. Matthew Pryor</name>
+      <email>matthew_pryor@versata.com</email>
+      <organization/>
+      <roles>
+        <role>Developer</role>
+      </roles>
+    </contributor>
+    <contributor>
+      <name>Knut Wannheden</name>
+      <email/>
+      <organization/>
+      <roles>
+        <role>Developer</role>
+      </roles>
+    </contributor>
+    <contributor>
+      <name>Kelvin Tan</name>
+      <email/>
+      <organization/>
+      <roles>
+        <role>Developer</role>
+      </roles>
+    </contributor>
+    <contributor>
+      <name>Todd Jonker</name>
+      <email/>
+      <organization/>
+      <roles>
+        <role>Developer</role>
+      </roles>
+    </contributor>
+    <contributor>
+      <name>Christiaan ten Klooster</name>
+      <email/>
+      <organization/>
+      <roles>
+        <role>Developer</role>
+      </roles>
+    </contributor>
+    <contributor>
+      <name>Pete Kazmier</name>
+      <email>kaz@apache.org</email>
+      <organization/>
+      <roles>
+        <role>Developer</role>
+      </roles>
+    </contributor>
+  </contributors>
+    
   <distributionManagement>
     <snapshotRepository>
       <id>sonatype-nexus-snapshots</id>
